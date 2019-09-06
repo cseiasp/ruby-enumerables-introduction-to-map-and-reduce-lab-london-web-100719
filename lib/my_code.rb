@@ -2,7 +2,7 @@
 
 def map_to_negative(array)
   
-
+while i < array.length 
   
 end
 

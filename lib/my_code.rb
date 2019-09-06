@@ -6,7 +6,7 @@ while i < array.length do
   array[i]= -array[i]
   i += 1
 end
-  
+  array
 end
 
 def map_to_no_change(array)

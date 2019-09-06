@@ -31,16 +31,6 @@ end
   array
 end
 
-def reduce_to_total(array)
-   i=0
-   total = 0
-while i < array.length do
-  total = total + array[i]
-  i += 1
-end
-  total
-end
-
 def reduce_to_total(array, starting_point)
    i=0
    total = 0

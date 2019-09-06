@@ -31,9 +31,10 @@ end
   array
 end
 
-def reduce_to_total(array, total)
+def reduce_to_total(array, starting_point)
    i=0
    total = 0
+   total = total + starting_point
 while i < array.length do
   total = total + array[i]
   i += 1

@@ -31,7 +31,7 @@ end
   array
 end
 
-def reduce_to_total(array, start)
+def reduce_to_total(source_array, start)
    i=0
    total = 0
 while i < array.length do
